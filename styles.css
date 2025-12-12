@@ -1,5 +1,9 @@
 body {
-    background-color: #0d4007; 
+    background-color: #244820; 
+    background-image: url('../descarga.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,6 +41,42 @@ h1 {
 .seconds-display.low-time {
     color: #cc5555; 
 }
+/* --- Estilos para el Input de Selección de Tiempo --- */
+.time-selection {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-selection label {
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.input-seconds {
+    font-size: 1.5rem;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    appearance: textfield;
+}
+
+/* Quitar flechas en Chrome/Safari/Edge */
+.input-seconds::-webkit-inner-spin-button, 
+.input-seconds::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-seconds:disabled {
+    background-color: #eee;
+    color: #999;
+    cursor: not-allowed;
+}
 
 .controls {
     margin-top: 20px;
@@ -65,7 +105,7 @@ h1 {
 
 
 footer {
-    margin-top: 180px;
+    margin-top: 121px;
     text-align: center;
     color: #ebe7e7;
     font-size: 15px;
