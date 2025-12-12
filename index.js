@@ -35,7 +35,7 @@ function updateDisplay() {
     display.textContent = displayValue;
 
     // Aplica el estilo de "low-time" (rojo sutil) cuando quedan 5 segundos o menos
-    if (seconds <= 5 && seconds > 0) {
+    if (seconds <= 6 && seconds > 0) {
         display.classList.add('low-time');
     } else {
         display.classList.remove('low-time');
@@ -53,7 +53,7 @@ function timer() {
     
     // Inicia el contador: se ejecuta cada 1000ms (1 segundo)
     countdown = setInterval(() => {
-        seconds--; // ¡DECREMENTA!
+        seconds-= 2; // ¡DECREMENTA!
         updateDisplay();
 
         // Lógica de finalización: detiene el temporizador cuando llega a 0
@@ -65,7 +65,7 @@ function timer() {
             display.textContent = '00'; // Muestra 00 al finalizar
             display.classList.remove('low-time');
         }
-    }, 1000); 
+    }, 2000); 
 }
 
 // Función para pausar
