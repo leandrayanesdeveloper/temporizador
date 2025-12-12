@@ -3,7 +3,7 @@ body {
     background-image: url('../descarga.jfif');
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     display: flex;
     flex-direction: column;
     align-items: center;
