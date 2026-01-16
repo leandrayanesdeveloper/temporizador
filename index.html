@@ -9,31 +9,22 @@
 <body>
     <h1>Temporizador</h1>
     
-    <div class="timer-zen">
-        <div class="time-selection">
-            <label for="secondsInput">Segundos (Máx. 60):</label>
-            <input 
-                type="number" 
-                id="secondsInput" 
-                min="1" 
-                max="60" 
-                value="60" 
-                class="input-seconds"
-            >
-        </div>
-
-        <span class="seconds-display" id="seconds-counter">60</span>
-        <div class="controls">
-            <button class="zen-button" id="startButton">Iniciar</button>
-            <button class="zen-button" id="pauseButton" disabled>Pausar</button>
-            <button class="zen-button" id="resetButton">Reiniciar</button>
-        </div>
+    <div class="contenedor-carrera">
+   <div class="pista">
+    <div id="display">60</div>
+    <div id="carro-contenedor">
+        <div id="carro">🏎️ <span>🔥</span></div>
+      <div class="interfaz">
     </div>
-    
+</div>
+
+</div>
+</div>
+    <button id="startButton">START</button>
     <footer>
         <div class="Link-Container">
           <p id="footer">
-                Developed by:
+                Elaborado por:
                 <a style="text-decoration: none;" target="_blank" href="https://github.com/leandrayanesdeveloper">Leandra Yanes</a>
             </p>
         </div> 
