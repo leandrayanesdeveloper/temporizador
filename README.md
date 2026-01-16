@@ -34,10 +34,6 @@ if (segundos < 10) {
 }
 
 ```
-
-## 📸 Vista Previa
-<img width="1024" height="604" alt="image" src="https://github.com/user-attachments/assets/7a51d21a-3949-4c21-ab8f-6c99d5079c42" />
-
 ## ✒️ Autora
 
 * **Leandra Yanes** 
