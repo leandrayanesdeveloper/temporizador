@@ -41,13 +41,3 @@ if (segundos < 10) {
 ## ✒️ Autora
 
 * **Leandra Yanes** 
-
-
-
-
-
-1. **Título**: Puedes cambiarlo por algo más creativo si quieres.
-2. **Vista Previa**: Si tienes una captura de pantalla de tu proyecto, guárdala en tu carpeta como `preview.png` y cambia el link en el README.
-3. **Links**: No olvides poner tu nombre o un link a tu perfil en la sección de autora.
-
-**¿Te gustaría que añada una sección de "Cómo instalar" para que otras personas puedan descargar y correr tu código en sus computadoras?**
